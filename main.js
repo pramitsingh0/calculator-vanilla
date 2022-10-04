@@ -25,6 +25,7 @@ function operate(operator, num1, num2) {
       break;
     case 'divide':
       divide(num1, num2);
+      break;
     default:
       return "Input an operator and two numbers"
   }
